@@ -1,11 +1,11 @@
-package com.example.springsecurityjwt
+package com.example.authmodule
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringSecurityJwtApplication
+class AuthModuleApplication
 
 fun main(args: Array<String>) {
-    runApplication<SpringSecurityJwtApplication>(*args)
+    runApplication<AuthModuleApplication>(*args)
 }
